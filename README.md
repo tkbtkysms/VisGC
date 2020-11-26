@@ -1,6 +1,6 @@
 # VisGC
 
-This tool is a visualization of the execution flow of grammar compressions ([RePair](https://ieeexplore.ieee.org/document/892708) and [RLESP] (https://www.sciencedirect.com/science/article/abs/pii/S0166218X19300319?via%3Dihub)).
+This tool is a visualization of the execution flow of grammar compressions ([RePair](https://ieeexplore.ieee.org/document/892708) and [RLESP](https://www.sciencedirect.com/science/article/abs/pii/S0166218X19300319?via%3Dihub)).
 
 ## Installation
 
