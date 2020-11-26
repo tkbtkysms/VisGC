@@ -1,10 +1,10 @@
 # VisGC
 
-This tool is a visualization of the execution flow of grammar compressions (RePair [1] and RLESP [2]).
+This tool is a visualization of the execution flow of grammar compressions ([RePair](https://ieeexplore.ieee.org/document/892708) and [RLESP] (https://www.sciencedirect.com/science/article/abs/pii/S0166218X19300319?via%3Dihub)).
 
 ## Installation
 
-Access https://docs.google.com/spreadsheets/d/1gcr5qd2ceu0S38p3n7sdK9GHqt5Uur6R52Qil8A7278/edit?usp=sharing　and then copy the spreadsheet in your google drive.
+Access https://docs.google.com/spreadsheets/d/1gcr5qd2ceu0S38p3n7sdK9GHqt5Uur6R52Qil8A7278/edit?usp=sharing and then copy the spreadsheet in your google drive.
 　　
 ## Execution
 1. Click addon>VisGC>VisGC to open the popup window (input string and settings). 
