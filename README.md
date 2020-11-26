@@ -13,4 +13,4 @@ Access https://docs.google.com/spreadsheets/d/1gcr5qd2ceu0S38p3n7sdK9GHqt5Uur6R5
 
 ## Transforming your spreadsheet table into the latex's tabular. 
 
-Select the table that you want to transform into the latex's table and click addon>VisGC>TblToTex. Then open the popup window displaying the transformation result.
+Select the table that you want to transform into the latex's table and click addon>VisGC>TblToTex. Then get the transformation result in the popup window.
