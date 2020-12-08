@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+</head>
+
+<body>
+    <form>
+        input string: <input name="inputString" type="text"></br>
+        compression type:
+        <input type="radio" name="compType" value="RePair" checked="checked">RePair
+        <input type="radio" name="compType" value="RLESP">RLESP </br>
+        # of alphabet reduction (<b>only for RLESP</b>): <input name="numAlph" type="number" min=0 max=5 value=3> </br>
+        line to start diplaying the result: <input name="stLine" type="number" min=1 value=1></br>
+        <button onclick="google.script.run.withSuccessHandler(function(){
+  google.script.host.close();
+}).getMsg(this.parentNode);">start</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+    <style>
+        #wrapper {
+            height: 250px;
+            width: 450px;
+            overflow-y: scroll;
+        }
+
+        #contents {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- コピー対象要素とコピーボタン -->
+    <div id="wrapper">
+        <div id="copyTarget">
+            <?!=one ?>
+        </div>
+    </div>
+    <button onclick="copyToClipboard()">Copy text</button>
+
+    <!-- bodyタグ内の下部に以下を入力する -->
+    <script>
+        function copyToClipboard() {
+            // コピー対象のpタグオブジェクトを取得する.
+            let pTag = document.getElementById('copyTarget');
+            // コピー内容を選択する.
+            let range = document.createRange();
+            range.selectNodeContents(pTag);
+            let selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            // 選択したものをコピーする.
+            document.execCommand('copy');
+            // コピー内容の選択を解除する.
+            selection.removeAllRanges();
+        }
+    </script>
+</body>
+
+</html>
